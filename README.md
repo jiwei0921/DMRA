@@ -23,9 +23,3 @@ Code repository for our paper entilted "Depth-induced Multi-scale Recurrent Atte
    year = {2019}     
 }  
 ```
-@InProceedings{Piao_2019_ICCV,       
-   author = {Yongri Piao, Wei Ji, Jingjing Li, Miao Zhang, Huchuan Lu},   
-   title = {Depth-induced Multi-scale Recurrent Attention Network for Saliency Detection},     
-   booktitle = ICCV,     
-   year = {2019}     
-}    
