@@ -4,7 +4,7 @@ Code repository for our paper entilted "Depth-induced Multi-scale Recurrent Atte
 + [Code] Coming soon.
 + [Dataset] Coming soon.
 
-+ ### Results
+### Results
 
 | [NJUD](https://pan.baidu.com/s/1smz7KQbCPPClw58bDheH4w)  |
 | [NLPR](https://pan.baidu.com/s/19qJkHtFQGV9oVtEFWY_ctg)  |
@@ -14,3 +14,10 @@ Code repository for our paper entilted "Depth-induced Multi-scale Recurrent Atte
 | [SSD](https://pan.baidu.com/s/1VY4I-4qpWS3wewz0MC8kqA)  |
   
 	
+### Citation
+@InProceedings{Piao_2019_ICCV,
+   author = {Yongri Piao, Wei Ji, Jingjing Li, Miao Zhang, Huchuan Lu},
+   title = {Depth-induced Multi-scale Recurrent Attention Network for Saliency Detection},
+   booktitle = ICCV,
+   year = {2019}
+}
