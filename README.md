@@ -15,7 +15,7 @@ Code repository for our paper entilted "Depth-induced Multi-scale Recurrent Atte
   
 ### Related RGB-D Saliency Datasets
 All common RGB-D Saliency Datasets we collected are shared in ready-to-use manner.       
-> The web link is [here](https://github.com/jiwei0921/RGBD-SOD-datasets).
++ The web link is [here](https://github.com/jiwei0921/RGBD-SOD-datasets).
 
 ### Citation
 ```
@@ -26,4 +26,6 @@ All common RGB-D Saliency Datasets we collected are shared in ready-to-use manne
    year = {2019}     
 }  
 ```
-+ If you have any questions, please contact us ( jiwei521@mail.dlut.edu.cn ).
+
+### Contact Us
+If you have any questions, please contact us ( jiwei521@mail.dlut.edu.cn ).
