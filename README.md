@@ -20,9 +20,9 @@ All common RGB-D Saliency Datasets we collected are shared in ready-to-use manne
 ### Citation
 ```
 @InProceedings{Piao_2019_ICCV,       
-   author = {Yongri Piao, Wei Ji, Jingjing Li, Miao Zhang, Huchuan Lu},   
+   author = {Yongri {Piao} and Wei {Ji} and Jingjing {Li} and Miao {Zhang} and Huchuan {Lu}},   
    title = {Depth-induced Multi-scale Recurrent Attention Network for Saliency Detection},     
-   booktitle = ICCV,     
+   booktitle = "ICCV",     
    year = {2019}     
 }  
 ```
