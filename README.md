@@ -6,6 +6,7 @@ Code repository for our paper entilted "Depth-induced Multi-scale Recurrent Atte
 
 ### Results
 
+| [DUT-RGBD](https://pan.baidu.com/s/1mS9EzoyY_ULXb3BCSd21eA)  |
 | [NJUD](https://pan.baidu.com/s/1smz7KQbCPPClw58bDheH4w)  |
 | [NLPR](https://pan.baidu.com/s/19qJkHtFQGV9oVtEFWY_ctg)  |
 | [STEREO](https://pan.baidu.com/s/1L11R1c51mMPTrfpW6ykGjA)  |
