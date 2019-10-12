@@ -12,13 +12,13 @@ We create a large scale RGB-D dataset with 1200 paired images containing more co
 
 ## DMRA Code
 
-### Requirment
+### > Requirment
 + pytorch 0.3.0+
 + torchvision
 + PIL
 + numpy
 
-### Usage
+### > Usage
 #### 1. Clone the repo
 ```
 git clone 
@@ -36,7 +36,7 @@ Our train-augment dataset [**link**](https://pan.baidu.com/s/18nVAiOkTKczB_ZpIzB
 python demo.py
 ```
 
-### Train info and pre-trained models for DMRA
+### > Train info and pre-trained models for DMRA
 To better understand, we retrain our network and record some detailed training details as well as corresponding pre-trained models.
 
 **Datasets** | - | NJUD(F-measure) | NJUD(MAE) | NLPR(F-measure) | NLPR(MAE)   
@@ -46,7 +46,7 @@ To better understand, we retrain our network and record some detailed training d
 + Tips: **The results of the paper shall prevail.** Because of the randomness of the training process, the results fluctuated slightly.
 
 
-### Results  
+### > Results  
 | [DUT-RGBD](https://pan.baidu.com/s/1mS9EzoyY_ULXb3BCSd21eA)  |
 | [NJUD](https://pan.baidu.com/s/1smz7KQbCPPClw58bDheH4w)  |
 | [NLPR](https://pan.baidu.com/s/19qJkHtFQGV9oVtEFWY_ctg)  |
@@ -56,7 +56,7 @@ To better understand, we retrain our network and record some detailed training d
 | [SSD](https://pan.baidu.com/s/1VY4I-4qpWS3wewz0MC8kqA)  |
 + Note:  For evaluation, all results are implemented on this ready-to-use [toolbox](https://github.com/jiwei0921/Saliency-Evaluation-Toolbox).
   
-### Related RGB-D Saliency Datasets
+### > Related RGB-D Saliency Datasets
 All common RGB-D Saliency Datasets we collected are shared in ready-to-use manner.       
 + The web link is [here](https://github.com/jiwei0921/RGBD-SOD-datasets).
 
