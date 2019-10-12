@@ -21,7 +21,7 @@ We create a large scale RGB-D dataset with 1200 paired images containing more co
 ### > Usage
 #### 1. Clone the repo
 ```
-git clone 
+git clone https://github.com/jiwei0921/DMRA.git
 cd DMRA/
 ```
 #### 2. Train/Test
