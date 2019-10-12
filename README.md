@@ -1,8 +1,9 @@
 # DMRA_RGBD-SOD
 Code repository for our paper entilted "Depth-induced Multi-scale Recurrent Attention Network for Saliency Detection" accepted at ICCV 2019 (poster).
-+ [Paper] Coming soon.
-+ [Code] Coming soon.
-+ [Dataset] The dataset link can be found [here](https://pan.baidu.com/s/1FwUFmNBox_gMZ0CVjby2dg).
+
+## DUT-RGBD Dataset 
+We create a large scale RGB-D dataset with 1200 paired images containing more complex scenarios, such as multiple or transparent objects, similar foreground and background, complex background, low-intensity environment. **And we split the dataset including 800 training set and 400 test set.**   
+The dataset link can be found [here](https://pan.baidu.com/s/1FwUFmNBox_gMZ0CVjby2dg).
 
 ### Results  
 | [DUT-RGBD](https://pan.baidu.com/s/1mS9EzoyY_ULXb3BCSd21eA)  |
