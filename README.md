@@ -36,6 +36,10 @@ Our train-augment dataset [**link**](https://pan.baidu.com/s/18nVAiOkTKczB_ZpIzB
 python demo.py
 ```
 
+### Train info and pre-trained models for DMRA
+To better understand, we retrain our network and record some detailed training details as well as corresponding pre-trained models.
+
+
 ### Results  
 | [DUT-RGBD](https://pan.baidu.com/s/1mS9EzoyY_ULXb3BCSd21eA)  |
 | [NJUD](https://pan.baidu.com/s/1smz7KQbCPPClw58bDheH4w)  |
