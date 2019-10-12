@@ -22,12 +22,12 @@ git clone
 cd DMRA/
 ```
 #### 2. Train/Test
-+ test
++ test     
 Download related dataset [**link**](), and set the param '--phase' as "**test**" and '--param' as '**True**' in ```demo.py```. Meanwhile, you need to set **dataset path** and **checkpoint name** correctly.
 ```
 python demo.py
 ```
-+ train
++ train     
 Our train-augment dataset [**link**](), and set the param '--phase' as "**train**" and '--param' as '**True**'(loading checkpoint) or '**False**'(no loading checkpoint) in ```demo.py```. Meanwhile, you need to set **dataset path** and **checkpoint name** correctly.  
 ```
 python demo.py
