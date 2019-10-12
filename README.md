@@ -36,12 +36,17 @@ Our train-augment dataset [**link**](https://pan.baidu.com/s/18nVAiOkTKczB_ZpIzB
 python demo.py
 ```
 
-### > Train info and pre-trained models for DMRA
+### > Training info and pre-trained models for DMRA
 To better understand, we retrain our network and record some detailed training details as well as corresponding pre-trained models.
 
-**Datasets** | - | NJUD(F-measure) | NJUD(MAE) | NLPR(F-measure) | NLPR(MAE)   
-:-: | :-: | :-: | :-: | :-: | :-: |   
-**Size** | 1985 | 1200 | 1000 | 929 | 797/1000 |    
+**Iterations** | **Loss** | NJUD(F-measure) | NJUD(MAE) | NLPR(F-measure) | NLPR(MAE) | download link     
+:-: | :-: | :-: | :-: | :-: | :-: | :-: |   
+100W | 958 | 0.882 | 0.048 | 0.867 | 0.031 | [link]()   
+70W | 2413 | 0.876 | 0.050 | 0.854 | 0.033 | [link]()  
+40W | 3194 | 0.861 | 0.056 | 0.823 | 0.037 | [link]()   
+16W | 8260 | 0.805 | 0.081 | 0.725 | 0.056 | [link]()  
+2W | 33494 | 0.009 | 0.470 | 0.030 | 0.452 | [link]()  
+0W | 45394 | - | - | - | - | -  
 
 + Tips: **The results of the paper shall prevail.** Because of the randomness of the training process, the results fluctuated slightly.
 
