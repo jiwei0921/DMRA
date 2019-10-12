@@ -7,6 +7,32 @@ We create a large scale RGB-D dataset with 1200 paired images containing more co
 ![avatar](https://github.com/jiwei0921/DMRA/blob/master/figure/dataset.png)
 + The **dataset link** can be found [here](https://pan.baidu.com/s/1FwUFmNBox_gMZ0CVjby2dg).
 
+## DMRA Code
+
+### Requirment
++ pytorch 0.3.0+
++ torchvision
++ PIL
++ numpy
+
+### Usage
+#### 1. Clone the repo
+```
+git clone 
+cd DMRA/
+```
+#### 2. Train/Test
++ test
+Download related dataset [**link**](), and set the param '--phase' as "**test**" and '--param' as '**True**' in ```demo.py```. Meanwhile, you need to set **dataset path** and **checkpoint name** correctly.
+```
+python demo.py
+```
++ train
+Our train-augment dataset [**link**](), and set the param '--phase' as "**train**" and '--param' as '**True**'(loading checkpoint) or '**False**'(no loading checkpoint) in ```demo.py```. Meanwhile, you need to set **dataset path** and **checkpoint name** correctly.  
+```
+python demo.py
+```
+
 ### Results  
 | [DUT-RGBD](https://pan.baidu.com/s/1mS9EzoyY_ULXb3BCSd21eA)  |
 | [NJUD](https://pan.baidu.com/s/1smz7KQbCPPClw58bDheH4w)  |
