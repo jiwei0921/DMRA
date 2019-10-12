@@ -39,11 +39,11 @@ python demo.py
 ### Train info and pre-trained models for DMRA
 To better understand, we retrain our network and record some detailed training details as well as corresponding pre-trained models.
 
-**Datasets** | NJUD | DUT-RGBD | NLPR | SIP | STEREO | LFSD | RGBD135 | SSD  
-:-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-:  
-**Size** | 1985 | 1200 | 1000 | 929 | 797/1000 | 100 | 135 | 80|   
-**Publication** | [ICIP](http://dpfan.net/wp-content/uploads/NJU2K_dataset_ICIP14.pdf) | ICCV | [ECCV](http://dpfan.net/wp-content/uploads/NLPR_dataset_ECCV14.pdf) | [arXiv](https://arxiv.org/pdf/1907.06781.pdf) | [CVPR](http://dpfan.net/wp-content/uploads/STERE_dataset_CVPR12.pdf) | [CVPR](http://dpfan.net/wp-content/uploads/LFSD_dataset_CVPR14.pdf) | [ICIMCS](http://dpfan.net/wp-content/uploads/DES_dataset_ICIMCS14.pdf) | [ICCVW](http://dpfan.net/wp-content/uploads/SSD_dataset_ICCVW17.pdf)| 
-**Download link** | [here](https://pan.baidu.com/s/1o-kOaDVqjV_druBHjD3NAA) | [here](https://pan.baidu.com/s/1mhHAXLgoqqLQIb6r-k-hbA) | [here](https://pan.baidu.com/s/1pocKI_KEvqWgsB16pzO6Yw) | [here](https://pan.baidu.com/s/14VjtMBn0_bQDRB0gMPznoA) | [here](https://pan.baidu.com/s/1ISsDYT68LfQnhJPtgBFSyg)/[1000_ori](https://pan.baidu.com/s/1LQSxF7GsmRoSM_iz09Yl1A) | [here](https://pan.baidu.com/s/1EHCvEwAOBP9_wwAm29SctQ) | [here](https://pan.baidu.com/s/1qZTr3EgA7SJjJW1wA1doTQ) | [here](https://pan.baidu.com/s/1zNL9-KSQwGILdAAfStMXWQ)|
+**Datasets** | - | NJUD(F-measure) | NJUD(MAE) | NLPR(F-measure) | NLPR(MAE)   
+:-: | :-: | :-: | :-: | :-: | :-: |   
+**Size** | 1985 | 1200 | 1000 | 929 | 797/1000 |    
+
++ Tips: **The results of the paper shall prevail.** Because of the randomness of the training process, the results fluctuated slightly.
 
 
 ### Results  
