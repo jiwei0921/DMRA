@@ -13,7 +13,7 @@ Code repository for our paper entilted "Depth-induced Multi-scale Recurrent Atte
 1. The dataset is part of DUTLF dataset captured by Lytro camera, and we selected a more accurate 1200 depth map pairs for more accurate RGB-D saliency detection.     
 2. We create a large scale RGB-D dataset(DUTLF-Depth) with 1200 paired images containing more complex scenarios, such as multiple or transparent objects, similar foreground and background, complex background, low-intensity environment. This challenging dataset can contribute to comprehensively evaluating saliency models.    
 
-![avatar](https://github.com/jiwei0921/DMRA/blob/master/figure/dataset.png)
+![avatar](https://github.com/jiwei0921/DMRA/blob/master/figure/dataset.png)     
 + The **dataset link** can be found [here](https://pan.baidu.com/s/1FwUFmNBox_gMZ0CVjby2dg). And we split the dataset including 800 training set and 400 test set.   
 
 ## DMRA Code
