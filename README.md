@@ -66,7 +66,7 @@ To better understand, we retrain our network and record some detailed training d
 | [RGBD135](https://pan.baidu.com/s/1jRYgoAijf_digGLQnsSbhA)  |
 | [SSD](https://pan.baidu.com/s/1VY4I-4qpWS3wewz0MC8kqA)  |
 + Note:  For evaluation, all results are implemented on this ready-to-use [toolbox](https://github.com/jiwei0921/Saliency-Evaluation-Toolbox).
-+ SIP results: This is test [results on SIP dataset](https://pan.baidu.com/s/1R126FXbZBE7Lj-B7nNae_g), and fetch code is 'fi5h'.
++ SIP results: This is [test results](https://pan.baidu.com/s/1R126FXbZBE7Lj-B7nNae_g) on SIP dataset, and fetch code is 'fi5h'.
   
 ### > Related RGB-D Saliency Datasets
 All common RGB-D Saliency Datasets we collected are shared in ready-to-use manner.       
