@@ -14,7 +14,7 @@ Code repository for our paper entilted "Depth-induced Multi-scale Recurrent Atte
 2. We create a large scale RGB-D dataset(DUTLF-Depth) with 1200 paired images containing more complex scenarios, such as multiple or transparent objects, similar foreground and background, complex background, low-intensity environment. This challenging dataset can contribute to comprehensively evaluating saliency models.    
 
 ![avatar](https://github.com/jiwei0921/DMRA/blob/master/figure/dataset.png)     
-+ The **dataset link** can be found [here](https://pan.baidu.com/s/1FwUFmNBox_gMZ0CVjby2dg). And we split the dataset including 800 training set and 400 test set.   
++ The **dataset link** can be found [here](https://pan.baidu.com/s/1FwUFmNBox_gMZ0CVjby2dg). And we split the dataset including 800 training set and 400 test set. 
 
 ## DMRA Code
 
@@ -72,6 +72,7 @@ To better understand, we retrain our network and record some detailed training d
 All common RGB-D Saliency Datasets we collected are shared in ready-to-use manner.       
 + The web link is [here](https://github.com/jiwei0921/RGBD-SOD-datasets).
 
+
 ### If you think this work is helpful, please cite
 ```
 @InProceedings{Piao_2019_ICCV,       
@@ -82,5 +83,30 @@ All common RGB-D Saliency Datasets we collected are shared in ready-to-use manne
 }  
 ```
 
+
+## Related SOTA RGB-D methods' results on our dataset
+
+Meanwhile, we also provide other state-of-the-art RGB-D methods' results on our proposed dataset, and you can directly download their results ([All results](https://pan.baidu.com/s/1spuFNQl7FJiDPFSOS55lnw),2gs2).     
+
+  
+**No.** | **Pub.** | **Name** | **Title** | **Download**    
+:-: | :-: | :-: | :- | :-: | 
+14 | **ICCV2019** | **DMRA** | Depth-induced multi-scale recurrent attention network for saliency detection | [results](https://pan.baidu.com/s/1leFj1sALXNiBh4p2Z3d5cg),1zqj 
+13 | **CVPR2019** | **CPFP** | Depth-induced multi-scale recurrent attention network for saliency detection | [results](https://pan.baidu.com/s/1leFj1sALXNiBh4p2Z3d5cg),1zqj 
+12 | **TIP2019** | **TANet** | Three-stream attention-aware network for RGB-D salient object detection | [results](https://pan.baidu.com/s/1leFj1sALXNiBh4p2Z3d5cg),1zqj 
+11 | **PR2019** | **MMCI** | Multi-modal fusion network with multiscale multi-path and cross-modal interactions for RGB-D salient object detection | [results](https://pan.baidu.com/s/1leFj1sALXNiBh4p2Z3d5cg),1zqj 
+10 | **ICME2019** | **PDNet** | Pdnet: Prior-model guided depth-enhanced network for salient object detection | [results](https://pan.baidu.com/s/1leFj1sALXNiBh4p2Z3d5cg),1zqj 
+09 | **CVPR2018** | **PCA** | Progressively Complementarity-Aware Fusion Network for RGB-D Salient Object Detection | [results](https://pan.baidu.com/s/1leFj1sALXNiBh4p2Z3d5cg),1zqj 
+08 | **ICCVW2017** | **CDCP** | An innovative salient object detection using center-dark channel prior | [results](https://pan.baidu.com/s/1leFj1sALXNiBh4p2Z3d5cg),1zqj 
+07 | **TCyb2017** | **CTMF** | CNNs-based RGB-D saliency detection via cross-view transfer and multiview fusion | [results](https://pan.baidu.com/s/1leFj1sALXNiBh4p2Z3d5cg),1zqj 
+06 | **TIP2017** | **DF** | RGBD salient object detection via deep fusion | [results](https://pan.baidu.com/s/1leFj1sALXNiBh4p2Z3d5cg),1zqj 
+05 | **CAIP2017** | **MB** | A Multilayer Backpropagation Saliency Detection Algorithm Based on Depth Mining | [results](https://pan.baidu.com/s/1leFj1sALXNiBh4p2Z3d5cg),1zqj 
+04 | **SPL2016** | **DCMC** | Saliency detection for stereoscopic images based on depth confidence analysis and multiple cues fusion | [results](https://pan.baidu.com/s/1leFj1sALXNiBh4p2Z3d5cg),1zqj 
+03 | **ECCV2014** | **LHM-NLPR** | Rgbd salient object detection: a benchmark and algorithms | [results](https://pan.baidu.com/s/1leFj1sALXNiBh4p2Z3d5cg),1zqj 
+02 | **ICIP2014** | **ACSD** | Depth saliency based on anisotropic center-surround difference | [results](https://pan.baidu.com/s/1leFj1sALXNiBh4p2Z3d5cg),1zqj 
+01 | **ICIMCS2014** | **DES** | Depth enhanced saliency detection method | [results](https://pan.baidu.com/s/1leFj1sALXNiBh4p2Z3d5cg),1zqj 
+
++ Thanks for related authors to provide the code or results, particularly, [Deng-ping Fan](http://dpfan.net), [Hao Chen](https://github.com/haochen593), [Chun-biao Zhu](https://github.com/ChunbiaoZhu), etc. 
+
 ### Contact Us
-If you have any questions, please contact us ( jiwei521@mail.dlut.edu.cn ).
+If you have any questions, please contact us ( jiwei521@mail.dlut.edu.cn or weiji.dlut@gmail.com ).
