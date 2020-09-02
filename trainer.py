@@ -86,7 +86,7 @@ class Trainer(object):
 
 
 
-            running_loss_final += loss_all.data[0]
+            running_loss_final += loss_all.item()
 
 
             if iteration % self.sshow == (self.sshow-1):
