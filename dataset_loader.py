@@ -46,18 +46,18 @@ class MyData(data.Dataset):  # inherit
         # load image
         img_file = self.img_names[index]
         img = PIL.Image.open(img_file)
-        # img = img.resize((256, 256))
+        img = img.resize((256, 256))
         img = np.array(img, dtype=np.uint8)
         # load label
         lbl_file = self.lbl_names[index]
         lbl = PIL.Image.open(lbl_file)
-        # lbl = lbl.resize((256, 256))
+        lbl = lbl.resize((256, 256))
         lbl = np.array(lbl, dtype=np.int32)
         lbl[lbl != 0] = 1
         # load depth
         depth_file = self.depth_names[index]
         depth = PIL.Image.open(depth_file)
-        # depth = depth.resize(256, 256)
+        depth = depth.resize((256, 256))
         depth = np.array(depth, dtype=np.uint8)
 
 
@@ -122,13 +122,13 @@ class MyTestData(data.Dataset):
         img_file = self.img_names[index]
         img = PIL.Image.open(img_file)
         img_size = img.size
-        # img = img.resize((256, 256))
+        img = img.resize((256, 256))
         img = np.array(img, dtype=np.uint8)
 
         # load focal
         depth_file = self.depth_names[index]
         depth = PIL.Image.open(depth_file)
-        # depth = depth.resize(256, 256)
+        depth = depth.resize((256, 256))
         depth = np.array(depth, dtype=np.uint8)
         if self._transform:
             img, focal = self.transform(img, depth)
