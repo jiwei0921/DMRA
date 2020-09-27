@@ -109,4 +109,4 @@ Meanwhile, we also provide other state-of-the-art RGB-D methods' results on our 
 + Thanks for related authors to provide the code or results, particularly, [Deng-ping Fan](http://dpfan.net), [Hao Chen](https://github.com/haochen593), [Chun-biao Zhu](https://github.com/ChunbiaoZhu), etc. 
 
 ### Contact Us
-If you have any questions, please contact us ( jiwei521@mail.dlut.edu.cn or weiji.dlut@gmail.com ).
+If you have any questions, please contact us ( wji3@ualberta.ca or weiji.dlut@gmail.com ).
