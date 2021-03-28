@@ -6,8 +6,8 @@ Code repository for our paper entilted "Depth-induced Multi-scale Recurrent Atte
 
 ## The proposed Dataset 
 + Dataset: DUTLF
-1. This dataset consists of DUTLF-MV, DUTLF-FS, DUTLF-Depth.
-2. The dataset will be expanded to 3000 about real scenes.
+1. Our DUTLF family consists of DUTLF-MV, DUTLF-FS, DUTLF-Depth.
+2. The dataset will be expanded to 4000 about real scenes.
 3. We are working on it and will make it publicly available soon. 
 + Dataset: DUTLF-Depth
 1. The dataset is part of DUTLF dataset captured by Lytro camera, and we selected a more accurate 1200 depth map pairs for more accurate RGB-D saliency detection.     
