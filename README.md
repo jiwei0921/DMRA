@@ -1,5 +1,5 @@
 # DMRA_RGBD-SOD
-Code repository for our paper entilted "Depth-induced Multi-scale Recurrent Attention Network for Saliency Detection" accepted at ICCV 2019 (poster).
+Code repository for our paper entilted "Depth-induced Multi-scale Recurrent Attention Network for Saliency Detection" accepted at ICCV 2019 (poster). **[Official paper for our DMRA](https://openaccess.thecvf.com/content_ICCV_2019/papers/Piao_Depth-Induced_Multi-Scale_Recurrent_Attention_Network_for_Saliency_Detection_ICCV_2019_paper.pdf) in RGB-D Salient Object Detection.**
 
 # Overall
 ![avatar](https://github.com/jiwei0921/DMRA/blob/master/figure/overall.png)
