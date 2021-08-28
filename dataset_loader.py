@@ -5,6 +5,7 @@ import PIL.Image
 import scipy.io as sio
 import torch
 from torch.utils import data
+import cv2
 
 class MyData(data.Dataset):  # inherit
     """
@@ -46,19 +47,19 @@ class MyData(data.Dataset):  # inherit
         # load image
         img_file = self.img_names[index]
         img = PIL.Image.open(img_file)
-        img = img.resize((256, 256))
         img = np.array(img, dtype=np.uint8)
+        img = cv2.resize(img, (256, 256), interpolation=cv2.INTER_AREA)
         # load label
         lbl_file = self.lbl_names[index]
-        lbl = PIL.Image.open(lbl_file)
-        lbl = lbl.resize((256, 256))
+        lbl = PIL.Image.open(lbl_file).convert('L')
         lbl = np.array(lbl, dtype=np.int32)
+        lbl = cv2.resize(lbl, (256, 256), interpolation=cv2.INTER_AREA)
         lbl[lbl != 0] = 1
         # load depth
         depth_file = self.depth_names[index]
-        depth = PIL.Image.open(depth_file)
-        depth = depth.resize((256, 256))
+        depth = PIL.Image.open(depth_file).convert('L')
         depth = np.array(depth, dtype=np.uint8)
+        depth = cv2.resize(depth, (256, 256), interpolation=cv2.INTER_AREA)
 
 
 
@@ -122,14 +123,14 @@ class MyTestData(data.Dataset):
         img_file = self.img_names[index]
         img = PIL.Image.open(img_file)
         img_size = img.size
-        img = img.resize((256, 256))
         img = np.array(img, dtype=np.uint8)
+        img = cv2.resize(img, (256, 256), interpolation=cv2.INTER_AREA)
 
         # load focal
         depth_file = self.depth_names[index]
-        depth = PIL.Image.open(depth_file)
-        depth = depth.resize((256, 256))
+        depth = PIL.Image.open(depth_file).convert('L')
         depth = np.array(depth, dtype=np.uint8)
+        depth = cv2.resize(depth, (256, 256), interpolation=cv2.INTER_AREA)
         if self._transform:
             img, focal = self.transform(img, depth)
             return img, focal, self.names[index], img_size
